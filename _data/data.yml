@@ -10,7 +10,7 @@ sidebar:
 
     name: Rémy MANCHON
     tagline: Web Developper - Symfony
-    avatar: profile_Remy.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: IMG_1921.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 
     # Sidebar links
@@ -92,8 +92,4 @@ skills:
 
       - name: HTML5 & CSS
         level: 80%
-
-      - name: gimp
-        level: 30%
-
 
