@@ -71,15 +71,10 @@ experiences:
       details: |
         Supervision d'équipe lors de mission de réalisation d'inventaire de toute sorte, en France et en Italie
 
-projets:
+projects:
     title: O pré de chez vous
     intro: Site de co-voiturage de produits locaux, régionaux et artisanaux.
 
-
-publications:
-    title: Publications
-    intro:
-        Under Construction
 skills:
     title: Mes technos
     iconPhp: php.png
