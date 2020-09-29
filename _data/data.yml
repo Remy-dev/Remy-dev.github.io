@@ -11,6 +11,8 @@ sidebar:
     name: Rémy MANCHON
     tagline: Web Developper - Symfony
     avatar: IMG_1921_rounded.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    live: Marseille, France
+    flag: drapeauF.png
 
 
     # Sidebar links
