@@ -16,7 +16,7 @@ sidebar:
     # Sidebar links
     email: remym2402@gmail.com
     phone: 06 65 73 53 33
-    website: not yet online.
+    website: not online yet.
     linkedin: ryme-hyperion-oclock
     github: Remy-dev
     telegram: # add your nickname without '@' sign
@@ -47,16 +47,16 @@ sidebar:
 career-profile:
     title: Developpeur web et web mobile - backend - spé Symfony
     summary: |
-      Reconverti professionnel. Je viens de terminer ma formation Oclock Php/Symfony
+      Reconverti professionnel. J'ai l'immense plaisir d'annoncer que je viens de terminer ma formation O'clock, php/Symfony, et que je suis prêt pour le monde professionnel du dev !
 
 education:
     - degree: Titre professionnel Développeur Web et Web mobile
       school: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
       time: De Avril à fin septembre 2020
       details: |
-        700h intensives
-        -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT
-        -> 1 mois de spécialisation Symfony
+        700h intensives |
+        -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT |
+        -> 1 mois de spécialisation Symfony |
         -> 1 mois de projet
 
 
@@ -82,18 +82,22 @@ publications:
         Under Construction
 skills:
     title: Mes technos
-    name: spé Backend
+    iconPhp: php.png
+    iconJs: js.png
+    iconBootstrap: bootstrap-300x300.png
+    iconSymfony: logo-symfony.png
+    iconGit: Github-logo-deploiement-flash.png
 
 
     # toolset:
-    #   - name: Php
+      # - name: Php
     #    level: 75%
 
-    #  - name: Javascript
+     # - name: Javascript
     #    level: 50%
 
-    #  - name: Symfony
+      #- name: Symfony
     #    level: 60%
 
-    #  - name: HTML5 & CSS
+      #- name: HTML5 & CSS
     #    level: 80%
