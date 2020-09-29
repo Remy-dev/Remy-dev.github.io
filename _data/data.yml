@@ -89,8 +89,8 @@ skills:
     iconGit: Github-logo-deploiement-flash.png
 
 
-    # toolset:
-      # - name: Php
+    toolset:
+      - name: Php
     #    level: 75%
 
      # - name: Javascript
