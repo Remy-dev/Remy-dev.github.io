@@ -28,20 +28,20 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: French
-        level: Native
+      - idiom: Français
+        level: langue maternelle
 
-      - idiom: English
-        level: Professional
+      - idiom: Anglais
+        level: Professionnel
 
-      - idiom: Italian
-        level: Professional
+      - idiom: Italien
+        level: Professionnel
 
-    interests:
+    intérêts:
       - item: Sport - fitness
         link:
 
-      - item: Books - Heroic fantasy - sf
+      - item: Lecture - Heroic fantasy - sf
         link:
 
 career-profile:
@@ -82,7 +82,7 @@ publications:
         Under Construction
 skills:
     title: Mes technos
-    name: Symfony
+    name: spé Backend
 
 
     # toolset:
