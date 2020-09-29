@@ -54,10 +54,10 @@ education:
       school: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
       time: De Avril à fin septembre 2020
       details: |
-        "700h intensives\n
-        -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT\n
-        -> 1 mois de spécialisation Symfony\n
-        -> 1 mois de projet\n"
+        700h intensives
+        -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT
+        -> 1 mois de spécialisation Symfony
+        -> 1 mois de projet
 
 
     - degree: Baccalauréat professionnel Comptabilité et Gestion
@@ -90,7 +90,7 @@ skills:
 
 
     toolset:
-      - name: Php
+      - name:
     #    level: 75%
 
      # - name: Javascript

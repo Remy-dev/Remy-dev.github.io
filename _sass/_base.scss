@@ -79,11 +79,7 @@ p {
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
-    .icon {
-        max-width: 50px;
-        margin-bottom: 15px;
-        margin-left: 5px;
-    }
+
     .contact-list {
         .fas, .fab {
             margin-right: 5px;
@@ -258,6 +254,12 @@ p {
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+    }
+
+    .icon {
+        max-width: 50px;
+        margin-bottom: 15px;
+        margin-left: 5px;
     }
 }
 
