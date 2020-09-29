@@ -15,10 +15,12 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
+    {% if sidebar.live %}
+    <h2 class="live">{{ sidebar.live }}<img class="flag" src="{{ site.baseurl }}/assets/images/{{ sidebar.flag }}" alt="techno icon" /></h2>
+    {% endif %}
+
   </div><!--//profile-container-->
-  {% if sidebar.live %}
-  <h2 class="live">{{ sidebar.live }}</h2> <img class="flag" src="{{ site.baseurl }}/assets/images/{{ sidebar.flag }}" alt="techno icon" />
-  {% endif %}
+
   {% include contact.html %}
 
   {% if sidebar.education %}
