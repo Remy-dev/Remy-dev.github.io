@@ -16,7 +16,7 @@ sidebar:
     # Sidebar links
     email: remym2402@gmail.com
     phone: 06 65 73 53 33
-    website: #do not add http://
+    website: not yet online.
     linkedin: ryme-hyperion-oclock
     github: Remy-dev
     telegram: # add your nickname without '@' sign
@@ -45,51 +45,55 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Developpeur web et web mobile - backend - spé Symfony
     summary: |
-      Vocational retraining . I'm on Developper Web graduation at O'clock school.
-      Symfony framework specialization.
-education:
-    - degree: Web developper, mobile web
-      school: O'Clock
-      time: 2020 - Present
-      details: |
-        Learning how to build a dynamic website. Backend specialization with Symfony
+      Reconverti professionnel. Je viens de terminer ma formation Oclock Php/Symfony
 
-    - degree: Baccalaureate in accounting and management
+education:
+    - degree: Titre professionnel Développeur Web et Web mobile
+      school: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
+      time: De Avril à fin septembre 2020
+      details: |
+        700h intensives
+        -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT
+        -> 1 mois de spécialisation Symfony
+        -> 1 mois de projet
+
+
+    - degree: Baccalauréat professionnel Comptabilité et Gestion
       Lycee: Lpp - Caucadis - Vitrolles
       time: 2003
-      details: |
-        Accounting and management
+
 experiences:
-    - role: Inventories Manager
+    - role: Responsable Inventaire
       time: 2011 - 2018
       company: Fairson Inventaire
       details: |
-        Team management for all types of inventory assignments in France and Italy
+        Supervision d'équipe lors de mission de réalisation d'inventaire de toute sorte, en France et en Italie
 
-projects:
-    title: Projects
-    intro:
-        Personnal Blog - under Construction
+projets:
+    title: O pré de chez vous
+    intro: Site de co-voiturage de produits locaux, régionaux et artisanaux.
+
 
 publications:
     title: Publications
     intro:
         Under Construction
 skills:
-    title: Skills &amp; Proficiency
+    title: Mes technos
+    name: Symfony
 
-    toolset:
-      - name: Php
-        level: 75%
 
-      - name: Javascript
-        level: 50%
+    # toolset:
+    #   - name: Php
+    #    level: 75%
 
-      - name: Symfony
-        level: 60%
+    #  - name: Javascript
+    #    level: 50%
 
-      - name: HTML5 & CSS
-        level: 80%
+    #  - name: Symfony
+    #    level: 60%
 
+    #  - name: HTML5 & CSS
+    #    level: 80%
