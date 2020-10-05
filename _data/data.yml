@@ -49,11 +49,11 @@ sidebar:
 career-profile:
     title: Developpeur web et web mobile - backend - spé Symfony
     summary: |
-      Reconverti professionnel. J'ai l'immense plaisir d'annoncer que je viens de terminer ma formation O'clock, php/Symfony, et que je suis prêt pour le monde professionnel du dev !
+      Reconverti professionnel. La formation O'clock php/Symfony s'est achevée en septembre. Certification Opquast en novembre.
 
 education:
     - degree: Titre professionnel Développeur Web et Web mobile
-      school: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
+      university: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
       time: De Avril à fin septembre 2020
       details: |
         700h intensives
@@ -75,11 +75,11 @@ experiences:
 
 projects:
     title: Projet - O pré de chez vous
-    intro: Site de co-voiturage de produits locaux, régionaux et artisanaux.
+    intro: Site de co-voiturage de produits locaux, régionaux et artisanaux.Projet ayant été développé dans le cadre de la partie apothéose de la formation O'clock. Le site est fonctionnel mais n'est pas entièrement déployé. Seule la partie backend l'a été pour les besoins de la présentation (la partie front tournant en local)
 
 skills:
     title: Mes technos
-    iconPhp: php.png
+    iconPhp: php-logo.png
     iconJs: js.png
     iconBootstrap: bootstrap-300x300.png
     iconSymfony: logo-symfony.png

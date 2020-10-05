@@ -7,6 +7,8 @@ use Dompdf\Options;
 use Knp\Snappy\GeneratorInterface;
 use Psr\Container\ContainerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ParameterBag\ContainerBag;
 use Symfony\Component\DependencyInjection\ParameterBag\ContainerBagInterface;
@@ -16,21 +18,43 @@ use Knp\Bundle\SnappyBundle\KnpSnappyBundle;
 use Knp\Bundle\SnappyBundle\DependencyInjection\KnpSnappyExtension;
 use Knp\Snappy\Pdf;
 use Symfony\Component\HttpFoundation\Response;
+use Twig\Environment;
 
 class PdfController extends AbstractController
 {
+    private $pdf;
+    private $twig;
+    public function __construct(Pdf $pdf, Environment $twig)
+    {
+        $this->pdf =$pdf;
+        $this->twig = $twig;
+
+    }
+
     /**
-     * @Route("/pdf1", name="pdf")
+     * @Route("/", name="pdf6")
+     */
+    public function execute(ContainerInterface $container)
+    {
+        $this->pdf->setOption("enable-plugins", true);
+        $this->pdf->setOption("enable-internal-links", true);
+        $this->pdf->setTimeout(180);
+        $this->pdf->setOption("enable-local-file-access", true);
+        $this->pdf->generate('https://remy-dev.github.io/online-cv/', 'cv.pdf');
+
+    }
+    /**
+     * @Route("/", name="pdf")
      *
     public function pdfAction(ContainerInterface $container)
     {
         $container->get('knp_snappy.pdf')->generate('https://remy-dev.github.io/online-cv/', 'public/pdf/cv.pdf');
         return new Response('its done');
 
-    }*/
+    }
     /**
      * @Route("/", name="pdf2")
-     */
+     *
     public function pdfActionTwo()
     {
 
@@ -87,5 +111,25 @@ class PdfController extends AbstractController
             $container->get('knp_snappy.pdf')->getOutputFromHtml($html),
             'cv.pdf'
         );
+    }*/
+    /**
+     * @Route("/", name="pdf4")
+     *
+    public function pdfAction()
+    {
+        $pageUrl = $this->generateUrl('home', array(), true); // use absolute path!
+
+        return new PdfResponse(
+            $this->get('knp_snappy.pdf')->getOutput($pageUrl),
+            'file.pdf'
+        );
+    }
+
+    /**
+     * @Route('/home', name="home")
+     *
+    public function home()
+    {
+        $this->file('../../../index.html');
     }*/
 }
