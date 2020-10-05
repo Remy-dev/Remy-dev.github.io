@@ -34,10 +34,10 @@ sidebar:
         level: langue maternelle
 
       - idiom: Anglais
-        level: Professionnel
+        level: Intermédiaire
 
       - idiom: Italien
-        level: Professionnel
+        level: Intermédiaire
 
     interests:
       - item: Sport - fitness
@@ -75,7 +75,7 @@ experiences:
 
 projects:
     title: Projet - O pré de chez vous
-    intro: Site de co-voiturage de produits locaux, régionaux et artisanaux.Projet ayant été développé dans le cadre de la partie apothéose de la formation O'clock. Le site est fonctionnel mais n'est pas entièrement déployé. Seule la partie backend l'a été pour les besoins de la présentation (la partie front tournant en local)
+    intro: Site de co-voiturage de produits locaux, régionaux et artisanaux. Projet ayant été développé dans le cadre de la partie apothéose de la formation O'clock. Le site est fonctionnel mais n'est pas entièrement déployé. Seule la partie backend l'a été pour les besoins de la présentation (la partie front tournant en local). Il reste quelques fonctionnalités à ajouter particulièrement importante, comme un chat, pour pouvoir le mettre en ligne.
 
 skills:
     title: Mes technos
