@@ -52,7 +52,7 @@ career-profile:
       Reconverti professionnel. La formation O'clock php/Symfony s'est achevée en septembre. Optention de la certification Opquast, niveau Avancé avec 885/1000 pts.
 
 education:
-    - degree: Titre professionnel Développeur Web et Web mobile Niv III RNCP - Paris - 10 décembre 2020
+    - degree: Titre professionnel Développeur Web et Web mobile Niv III RNCP
       university: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
       time: De Avril à fin septembre 2020
       details: |
@@ -60,7 +60,7 @@ education:
         -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT
         -> 1 mois de spécialisation Symfony
         -> 1 mois de projet |
-        Soutenance passée en décembre
+        Soutenance passée le 10 décembre 2020
 
     - degree: Baccalauréat professionnel Comptabilité et Gestion
       Lycee: Lpp - Caucadis - Vitrolles
