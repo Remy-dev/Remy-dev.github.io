@@ -9,7 +9,7 @@ sidebar:
     # Profile information
 
     name: Rémy MANCHON
-    tagline: Web Developper - Symfony
+    tagline: Web Developper - Full Stack
     avatar: IMG_1921_rounded.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     live: Marseille, France
     flag: drapeauF.png
@@ -34,7 +34,7 @@ sidebar:
         level: langue maternelle
 
       - idiom: Anglais
-        level: Intermédiaire
+        level: Professionnel
 
       - idiom: Italien
         level: Intermédiaire
@@ -47,26 +47,33 @@ sidebar:
         link:
 
 career-profile:
-    title: Developpeur web et web mobile - backend - spé Symfony
+    title: Developpeur web et web mobile
     summary: |
-      Reconverti professionnel. La formation O'clock php/Symfony s'est achevée en septembre. Certification Opquast en novembre.
+      Reconverti professionnel. La formation O'clock php/Symfony s'est achevée en septembre. Optention de la certification Opquast, niveau Avancé avec 885/1000 pts.
 
 education:
-    - degree: Titre professionnel Développeur Web et Web mobile
+    - degree: Titre professionnel Développeur Web et Web mobile Niv III RNCP - Paris - 10 décembre 2020
       university: O'Clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique
       time: De Avril à fin septembre 2020
       details: |
         700h intensives
         -> 3 mois de Socle: HTML5 / CSS 3 / PHP / JAVASCRIPT
         -> 1 mois de spécialisation Symfony
-        -> 1 mois de projet
-
+        -> 1 mois de projet |
+        Soutenance passée en décembre
 
     - degree: Baccalauréat professionnel Comptabilité et Gestion
       Lycee: Lpp - Caucadis - Vitrolles
       time: 2003
 
 experiences:
+    - role: Développeur web - Lead dev Back
+      time: 1 mois
+      company: O'clock
+      details: |
+        Lead dev Back sur le projet de fin de formation O'clock. Equipe de 5 développeurs, sur 4 semaines, méthodes Scrum.
+        Technologies employées : Symfony, React, Api Platform, APi leaflet, Api OpenCage
+
     - role: Responsable Inventaire
       time: 2011 - 2018
       company: Fairson Inventaire
@@ -84,6 +91,9 @@ skills:
     iconBootstrap: bootstrap-300x300.png
     iconSymfony: logo-symfony.png
     iconGit: Github-logo-deploiement-flash.png
+    iconReact: react-js-logo.png
+    iconNode: Node.js_logo.svg.png
+    iconApiPlatform: ApiPlatform.png
 
 
     toolset:
